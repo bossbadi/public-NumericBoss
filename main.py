@@ -1,13 +1,14 @@
 # bossbadi's discord bot: main (executable script)
 from bot.resources import *
+
+# replit, comment and vice versa
+from startup.startup_replit import *
+
+# heroku, put token below
+
+
+
 client = discord.Client()
-
-# REPLIT | export token: export TOKEN=token
-from website import *  # replit
-TOKEN = os.getenv('TOKEN')  # replit
-
-# HEROKU | fill in this variable
-# TOKEN = ""
 
 
 # ---when bot starts---#
@@ -299,5 +300,4 @@ async def on_message(message):
 
 
 if __name__ == "__main__":
-    keep_alive()  # running the flask website
-    client.run(TOKEN)  # running the bot
+    client.run(TOKEN)
