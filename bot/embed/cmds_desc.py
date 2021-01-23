@@ -49,6 +49,6 @@ I am a Discord bot developed using Python 3. I specialize in numbers and other r
 **Developer's message**
 {}
 
-**[Changelog](https://gist.github.com/bossbadi/57d930488cddc3182c18223a84900c3d)**
+**Changelog**
 {}
 """
